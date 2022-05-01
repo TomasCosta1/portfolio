@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomas Costa</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/50303851c6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/logoPage.ico" type="image/x-icon">
+</head>
+<body>
+    <header id="home">
+        <div>
+            <img src="img/logo.png" alt="Logo">
+            <h1><a href="#home">Tomás Costa</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#service">Servicios</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="presentation">
+        <h2>Hola, soy Tomás.</h2>
+        <p>Web developer</p>
+        <div><img class="imgEmoji" src="img/perfilFondo.png" alt="Foto de perfil"></div>
+        <h3>Designer & Front-End Developer</h3>
+        <img id="service" class="wave" src="img/waveBottom1.png" alt="">
+    </section>
+    <section class="service">
+        <article>
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h3>Diseño + Desarrollo</h3>
+            <p>Diseños limpios y modernos: optimizados para el rendimiento, los motores de búsqueda y la conversión de usuarios en clientes.</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-shop"></i>
+            <h3>Comercio Electrónico</h3>
+            <p>Integración de plataformas de comercio electrónico, opciones de pago, plantillas de productos personalizados y más.</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Analítica</h3>
+            <p>Obtenga información sobre quién navega por su sitio para que pueda tomar decisiones comerciales más inteligentes.</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h3>Compatible con dispositivos móviles</h3>
+            <p>Un diseño receptivo hace que su sitio web sea accesible para todos los usuarios, independientemente de su dispositivo.</p>
+        </article>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <img class="wave" src="img/waveTop1.png" alt="">
+        <div>
+            <a target="_blank" href="https://tomascosta1.github.io/Manage/">
+                <article>
+                    <img src="img/manage.png" alt="Manage">
+                    <h3>Manage</h3>
+                </article>
+            </a>
+            <a target="_blank" href="https://a0frame.com/">
+                <article>
+                    <img src="img/a0frame.png" alt="A-0Frame">
+                    <h3>A-0Frame</h3>
+                </article>
+            </a>
+            <a target="_blank" href="">
+                <article>
+                    <img src="img/a0frame.png" alt="A-0Frame">
+                    <h3>A-0Frame</h3>
+                </article>
+            </a>
+            <a target="_blank" href="">
+                <article>
+                    <img src="img/a0frame.png" alt="A-0Frame">
+                    <h3>A-0Frame</h3>
+                </article>
+            </a>
+        </div>
+        <img class="wave" src="img/waveBottom2.png" alt="">
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contactame</h2>
+        <form method="post" action="post.php" id="form">
+            <div class="nameAndEmail">
+                <div class="divInput">
+                    <label for="name">Nombre y Apellido</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="divInput">
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje..."></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Si prefieres mi Email</p>
+        <a href="mailto:totocosta3@gmail.com">totocosta3@gmail.com</a>
+    </section>
+    <footer>
+        <div>
+            <a href="mailto:totocosta3@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>Designed by <a href="#home">Tomas Costa</a></p>
+    </footer>
+</body>
+</html>
